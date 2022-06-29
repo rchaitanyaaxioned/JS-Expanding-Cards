@@ -105,18 +105,12 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 86%; 
+  width: 88%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -124,14 +118,71 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/*styling for slider start here*/
+.text-small {
+  text-transform: lowercase;
+}
+
+.slider-img-list {
+  margin: 65px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.slider-img-list li {
+  width: 7%;
+  margin-right: 2%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+/* .slider-img-list li:first-child {
+  width: 80%;
+} 
+
+.slider-img-list li:hover:active {
+  width: 80%;
+}
+
+ .slider-img {
+  position: relative;
+  margin-right: 2%;
+} */
+
+.active,.slider-img-list li:hover {
+  width: 80%;
+}
+
+.slider-img figure {
+  max-width: 765px;
+  max-height: 535px;
+  width: 765px;
+  height: 535px;
+}
+
+.slider-img img {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 50px; */
+}
+
+.img-heading {
+  position: absolute;
+  bottom: 15px;
+  left: 2%;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
 
 
 
-
-
-
-
+/*styling for slider end here*/
 /*=================================
   main styling ends here
 =================================*/
@@ -139,13 +190,6 @@ li {
 /*=================================
   footer styling starts here
 =================================*/ 
-
-
-
-
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
