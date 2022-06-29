@@ -179,9 +179,9 @@ li {
   text-transform: capitalize;
 }
 
-
-
-
+.hide-heading {
+  visibility: hidden;
+}
 /*styling for slider end here*/
 /*=================================
   main styling ends here
