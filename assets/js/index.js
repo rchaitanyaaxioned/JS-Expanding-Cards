@@ -1,10 +1,12 @@
-// Add active class to the current button (highlight it)
-var header = document.getElementsByClassName("slider-img-list");
-var slider_img = header.getElementsByClassName("slider-img");
-for (var i = 0; i < slider_img.length; i++) {
-  slider_img[i].addEventListener("click", function () {
+var ul = document.getElementsByClassName("slider-img-list");
+console.log(ul);
+var li = document.getElementsByClassName("slider-img");
+console.log("check before forloop");
+for (var i = 0; i < li.length; i++) {
+  console.log(i);
+  li[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
+    current[0].classList.remove("active");
     this.className += " active";
   });
 }
