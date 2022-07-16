@@ -229,13 +229,6 @@ li {
 }
 
 /*=================================
-  Header styling starts here
-=================================*/
-/*=================================
-  Header styling ends here
-=================================*/
-
-/*=================================
   main styling starts here
 =================================*/
 /*styling for slider start here*/
@@ -252,7 +245,7 @@ li {
 }
 
 .slider-img {
-  width: 7%;
+  width: 10%;
   margin-right: 2%;
   position: relative;
   overflow: hidden;
@@ -270,11 +263,11 @@ li {
   font-weight: bold;
   opacity: 0;
   text-transform: capitalize;
-  transition: opacity 1s ease;
+  transition: opacity 1s ease 0.5s;
 }
 
 .active {
-  width: 80%;
+  width: 100%;
 }
 
 .active .img-heading {
@@ -284,10 +277,6 @@ li {
 .slider-img figure {
   width: 100%;
   height: 80vh;
-  /* max-width: 765px;
-  max-height: 535px;
-  width: 765px;
-  height: 535px; */
 }
 
 .slider-img img {
@@ -300,14 +289,3 @@ li {
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/
-/*=================================
-  footer styling ends here
-=================================*/
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {}
